@@ -1,0 +1,38 @@
+#footer {
+	padding: 2% 0;
+	background: #0085DD;
+	ul {
+		margin: 0;
+	    padding: 0;
+	    list-style: none;
+
+	    li {
+	    	display: inline-block;
+
+	    	a {
+				display: block;
+				padding: 0 12px;
+				text-decoration: none;
+
+				font-size: 16px;
+				line-height: 25px;
+				color: #FFFFFF;
+			}
+
+	    }
+	    li + li {
+	    	border-left: solid 2px #FFFFFF;
+	    }
+	}
+	p {
+		font-size: 16px;
+		line-height: 25px;
+		color: #FFFFFF;
+		padding-top: 12%;
+	}
+	hr {
+		padding: 0;
+		margin: 0;
+		border: 1px solid #FFFFFF;
+	}
+}

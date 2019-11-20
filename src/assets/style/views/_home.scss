@@ -1,0 +1,206 @@
+#newsfeed {
+	color: white;
+	padding-bottom: 3%;
+	overflow: hidden;
+	.newsfeed-title {
+		font-size: 28px;
+		line-height: 44px;
+		text-transform: uppercase;
+		color: #FFFFFF;
+
+		padding-top: 50px;
+	}
+	.col-md-4 { 
+		padding: 0;
+	}
+	.saint-card {
+		background: #FFFFFF;
+		border: 1px solid #D1E1FF;
+		box-sizing: border-box;
+		box-shadow: 0px 4px 8px rgba(0, 66, 197, 0.15);
+		border-radius: 16px;
+		padding: 25px;
+		margin-bottom: 16px;
+
+		.saint-card-header {
+			margin-bottom: 5px;
+		
+			.col-sm-10, .col-sm-1 {
+				padding: 0;
+			}
+			p {
+				margin: 0;
+			}
+			.name {
+				font-family: Rubik;
+				font-weight: 500;
+				font-size: 14px;
+				line-height: 22px;
+				color: #606060;
+			}
+			.time {
+				font-family: Rubik;
+				font-size: 12px;
+				line-height: 18px;
+				color: #1897EB;
+			}
+			.saint-avatar {
+				width: 35px;
+				height: 35px;
+				border-radius: 8px;
+				cursor: pointer;
+			}
+		}
+		.seemore-text-btn {
+			font-size: 14px;
+			line-height: 22px;
+			cursor: pointer;
+			color: #90B9DD;
+		}
+
+		.saint-card-body {
+			font-size: 18px;
+			line-height: 28px;
+			color: #606060;
+			margin: 16px;
+			.chat-left-section {
+				position: relative;
+			}
+
+			.chat-image-position {
+				position: absolute;
+				bottom: 8px;
+				right: 0;
+			}
+			.avatar {
+				width: 35px;
+				height: 35px;
+				border-radius: 8px;
+			}
+			.chat-right-text {
+				overflow-x: hidden;
+				padding: 5px 15px;
+				background-image: url('../../assets/images/chat-right-back.png');
+				background-size: 100% 100%;
+				background-repeat: no-repeat;
+				word-wrap: break-word;
+				//white-space: nowrap;
+				//overflow: hidden;
+				//text-overflow: ellipsis
+			}
+			.chat-left-text {
+				overflow-x: hidden;
+				padding: 5px 25px;
+				margin: 0px;
+				background-image: url('../../assets/images/chat-left-back.png');
+				background-size: 100% 100%;
+				background-repeat: no-repeat;
+				word-wrap: break-word;
+				color: #0085DD;
+			}
+			.chat-saint-name{
+				margin: 0px 0px 0px 10px;
+				font-size: 12px;
+			}
+			.col-sm-6 {
+				padding: 0;
+			}
+
+			.sub-card {
+				border-radius: 16px;
+				border: solid 1px #E0E0E0;
+				padding: 26px;
+
+				.title {
+					font-size: 18px;
+					line-height: 28px;
+					text-transform: uppercase;
+
+					color: #606060;
+					padding-bottom: 12px;
+				}
+				.text {
+					font-size: 14px;
+					line-height: 22px;
+
+					color: #A0D9FF;
+					padding-bottom: 30px;
+				}
+				.more-btn button {
+					font-family: Rubik;
+					font-weight: 500;
+					font-size: 14px;
+					line-height: 22px;
+
+					color: #FEFEFE;
+					background: linear-gradient(98.79deg, #51C0FF -11.5%, #51EAFF 123.28%);
+					box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.08);
+					border-radius: 75px;
+					width: 96px;
+				}
+			}
+		}
+		.volunteer-back{
+			background: #F3F3F3;
+			background-image: url('../../assets/images/Volunteer.png');
+			background-repeat: no-repeat;
+			background-position: -60px 60px;
+			background-size: 80%;
+		}
+		.donate-back{
+			background-image: url('../../assets/images/Donation.png');
+			background-repeat: no-repeat;
+			background-position: -60px 60px;
+			background-size: 80%;
+		}
+		.has-sub-card {
+			margin: 0;
+			margin-top: 16px;
+		}
+
+		.saind-card-img {
+			padding: 16px;
+		}
+
+		.saint-card-footer {
+			.quotes-red {
+				min-width: 90px;
+
+				font-family: Rubik;
+				font-size: 12px;
+				line-height: 18px;
+				text-align: center;
+
+				color: #FFFFFF;
+
+				background: #FFB5B5;
+				border-radius: 18px;
+			}
+		}
+	}
+	.more-btn button {
+		font-family: Rubik;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 25px;
+		color: #FEFEFE;
+		
+		background: linear-gradient(101.29deg, #51C0FF -11.5%, #51EAFF 123.28%);
+		box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.08);
+		border-radius: 75px;
+
+		width: 165px;
+	}
+	.newsfeedmore-btn{
+		margin-bottom: 10px;
+	}
+	.topPos {
+		height: calc(100vh - 150px);
+	}
+	.main-scrollbar {
+		overflow-y: auto; 
+		max-height: calc(100vh - 250px);
+		height:100%;
+	}
+}
+

@@ -1,0 +1,18 @@
+.page-404 {
+	color: white;
+	padding-bottom: 15%;
+
+	h1 {
+		padding: 50px 10px;
+		@media only screen and (max-width:  992px)
+		{
+			color: #000;
+		}
+	}
+	img {
+		border: 1px solid #D1E1FF;
+		box-sizing: border-box;
+		box-shadow: 0px 2px 16px rgba(81, 192, 255, 0.5);
+		border-radius: 10px;
+	}
+}

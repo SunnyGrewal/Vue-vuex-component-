@@ -1,0 +1,65 @@
+/*
+** Created by scent0330 on 6/21/2019.
+** Last updated by scent0330 on 7/1/2019.
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Varela+Round&display=swap'); /* Varela Round */
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap'); /* Rubik */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: url('../../assets/images/background.png');
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: 0px 100px;
+	//background-attachment: fixed;
+
+	font-family: Varela Round;
+	font-style: normal;
+	font-weight: normal;
+}
+
+.btn-white-stroke {
+	background: #FFFFFF;
+	border: 1px solid #D1E1FF;
+	box-sizing: border-box;
+	box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+	border-radius: 75px;
+
+	font-family: Rubik;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 25px;
+	align-items: center;
+	text-align: center;
+
+	color: #0085DD;
+
+	&:hover {
+		box-shadow: 0px 2px 16px rgba(81, 192, 255, 0.5);
+	}
+}
+
+@import "components/topnav.scss";
+
+@import "components/leftnav.scss";
+
+@import "components/modallogin.scss";
+
+@import "views/home.scss";
+@import "views/profile.scss";
+@import "views/postdetail.scss";
+@import "views/myspace.scss";
+@import "views/404.scss";
+
+@import "components/profilesummary.scss";
+@import "components/profilebiography.scss";
+@import "components/profilepatronage.scss";
+@import "components/profilegallery.scss";
+
+@import "components/footer.scss";

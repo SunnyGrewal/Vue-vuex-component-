@@ -1,0 +1,150 @@
+	/*.component {
+		background: #FEFEFE;
+		border: 1px solid #D1E1FF;
+		box-sizing: border-box;
+
+		box-shadow: 0px 4px 8px rgba(0, 66, 197, 0.15);
+		border-radius: 16px 16px 0px 0px;
+		padding: 20px;
+	}*/
+	hr {
+		border-bottom: 1px solid #51C0FF;
+		margin: 0;
+	}
+	.topPos {
+		height: calc(100vh - 150px);
+	}
+	.leftnav-scrollbar {
+		overflow-y: auto; 
+		max-height: calc(100vh - 350px);
+		height:100%;
+	}
+	.search-area{
+		background: #FEFEFE;
+		border: 1px solid #D1E1FF;
+		box-sizing: border-box;
+
+		overflow: hidden;
+		//height: calc(100vh - 250px);
+
+		box-shadow: 0px 4px 8px rgba(0, 66, 197, 0.15);
+		border-radius: 16px 16px 0px 0px;
+		padding: 20px;
+
+		.search-box {
+			input {
+				width: 100%;
+
+				padding: 8px 0;
+				padding-left: 70px;
+
+				background: #FFFFFF;
+				border: 1px solid #51C0FF;
+				box-sizing: border-box;
+				box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.03);
+				border-radius: 89px;
+
+				font-size: 12px;
+				line-height: 19px;
+			}
+			span {
+				position: absolute;
+				top:30px;
+				left: 9%;
+				z-index: 2;
+				display: block;
+				width: 55px;
+				height: 19px;
+				text-align: center;
+				pointer-events: none;
+
+				font-size: 12px;
+				line-height: 19px;
+
+				color: #606060;
+
+				img {
+					margin-right: 3px;
+				}
+			}
+		}
+		.title {
+			font-size: 18px;
+			line-height: 28px;
+			text-transform: uppercase;
+
+			color: #0085DD;
+			padding-top: 10px;
+		}
+		.pinned-saints ul {
+			margin: 15px 0 0 0;
+			padding: 0;
+			list-style: none;
+			//display: flex;
+			//justify-content: space-between;
+
+			.avatar {
+				width: 35px;
+				height: 35px;
+				border-radius: 8px;
+
+				cursor: pointer;
+			}
+			li {
+				display: inline-block;
+				padding: 5px 10px;
+			}
+			/*li + li {
+				padding-left: 10px;
+			}*/
+		}
+
+		.browse-saints {
+			
+			.col-sm-2, .col-sm-10 {
+				padding: 0;
+			}
+			/*.leftnav-scrollbar {
+				height: calc(100vh - 350px);
+			}*/
+			ul {
+
+				height:100%;
+				margin: 15px 0 0 0;
+				padding: 0;
+				list-style: none;
+				li {
+					margin: 5px;
+					background: #FAFCFF;
+					&:hover {
+						border: 1px solid #D1E1FF;
+						cursor: pointer;
+					}
+					box-sizing: border-box;
+					border-radius: 8px;
+					padding: 5px;
+					p {
+						margin: 0;
+					}
+					.name {
+						font-family: Rubik;
+						font-weight: 500;
+						font-size: 14px;
+						line-height: 22px;
+						color: #606060;
+					}
+					.profession {
+						font-family: Rubik;
+						font-size: 12px;
+						line-height: 18px;
+						color: #1897EB;
+					}
+					.avatar {
+						width: 35px;
+						height: 35px;
+						border-radius: 8px;
+					}
+				}
+			}
+		}
+	}

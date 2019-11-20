@@ -1,0 +1,143 @@
+
+.summary-area
+{
+	width: 96%;
+	height: 100%;
+
+	padding: 10px;
+	padding-right: 0px;
+	background: #FAFCFF;
+	box-shadow: 0px 4px 8px rgba(0, 66, 197, 0.15);
+
+	.summary {
+		.title {
+			font-size: 18px;
+			line-height: 28px;
+			text-transform: uppercase;
+			color: #0085DD;
+			padding: 0;
+		}
+		.icon-close {
+			width: 12px;
+			height: 12px;
+			cursor: pointer;
+		}
+		ul {
+			li {
+				margin: 30px 0;
+				border-left: solid 4px  #1897EB;
+				border-radius: 4px;
+				padding-left: 5px;
+
+				.subject {
+					font-family: Rubik;
+					font-size: 12px;
+					line-height: 18px;
+
+					color: #0085DD;
+				}
+				.body {
+					font-family: Rubik;
+					font-weight: 500;
+					font-size: 14px;
+					line-height: 22px;
+
+					color: #606060;
+				}
+			}
+		}
+	}
+
+	.keywords {
+		.title {
+			font-size: 18px;
+			line-height: 28px;
+			text-transform: uppercase;
+			color: #0085DD;
+			padding: 10px 0;
+		}
+		ul {
+			list-style: none;
+
+		    display: flex;
+		    flex-flow: row wrap;
+		    align-content: stretch;
+		
+			li {
+				padding: 5px 0;
+				padding-right: 20px;
+
+				font-family: Rubik;
+				font-weight: 500;
+				font-size: 14px;
+				line-height: 22px;
+
+				color: #606060;
+				span{
+					cursor: pointer;
+				}
+			}
+		}
+	}
+
+	.linkedTo {
+		.avatar {
+			width: 35px;
+			height: 35px;
+			border-radius: 8px;
+		}
+		.title {
+			font-size: 18px;
+			line-height: 28px;
+			text-transform: uppercase;
+			color: #0085DD;
+			padding: 10px 0;
+		}
+		ul {
+			margin: 15px 0 0 0;
+			padding: 0;
+			list-style: none;
+			li {
+				background: #FAFCFF;
+				/*border: 1px solid #D1E1FF;*/
+				box-sizing: border-box;
+				border-radius: 8px;
+				padding: 5px;
+				cursor: pointer;
+				p {
+					margin: 0;
+				}
+				.name {
+					font-family: Rubik;
+					font-weight: 500;
+					font-size: 14px;
+					line-height: 22px;
+					color: #606060;
+				}
+				.profession {
+					font-family: Rubik;
+					font-size: 12px;
+					line-height: 18px;
+					color: #1897EB;
+				}
+			}
+		}
+	}
+
+	hr {
+		border-bottom: 1px solid #51C0FF;
+	}
+
+	.close-link {
+		padding-top:10px;
+		
+		span {
+			font-family: Rubik;
+			font-weight: 500;
+			font-size: 14px;
+			line-height: 22px;
+			color: #1897EB;
+			cursor: pointer;
+		}
+	}
+}

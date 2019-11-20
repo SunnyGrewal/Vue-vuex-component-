@@ -1,0 +1,148 @@
+#post {
+	color: white;
+	padding-bottom: 3%;
+
+	.col-md-4 { 
+		padding: 0;
+	}
+	.saint-card {
+		background: #FFFFFF;
+		border: none;
+		padding: 25px;
+		margin-bottom: 16px;
+
+		.saint-card-header {
+			margin-bottom: 5px;
+			.saint-avatar {
+				width: 35px;
+				height: 35px;
+				border-radius: 8px;
+				cursor: pointer;
+			}
+		}
+		.container {
+			padding: 0;
+			margin: 0;
+		}
+		.col-sm-10, .col-sm-1 {
+			padding: 0;
+			margin: 0;
+		}
+		p {
+			margin: 0;
+		}
+		.name {
+			font-family: Rubik;
+			font-weight: 500;
+			font-size: 14px;
+			line-height: 22px;
+			color: #606060;
+		}
+		.time {
+			font-family: Rubik;
+			font-size: 12px;
+			line-height: 18px;
+			color: #1897EB;
+		}
+
+		.saint-card-body {
+			font-size: 18px;
+			line-height: 28px;
+			color: #606060;
+			margin: 16px 0;
+			.chat-left-section {
+				position: relative;
+			}
+
+			.chat-image-position {
+				position: absolute;
+				bottom: 8px;
+				right: 0;
+			}
+			.avatar {
+				width: 35px;
+				height: 35px;
+				border-radius: 8px;
+			}
+			.chat-right-text {
+				margin-bottom: 16px;
+				overflow-x: hidden;
+				padding: 5px 15px;
+				background-image: url('../../assets/images/chat-right-back.png');
+				background-size: 100% 100%;
+				background-repeat: no-repeat;
+				word-wrap: break-word;
+				//white-space: nowrap;
+				//overflow: hidden;
+				//text-overflow: ellipsis
+			}
+			.chat-left-text {
+				overflow-x: hidden;
+				padding: 5px 25px;
+				margin: 0px;
+				background-image: url('../../assets/images/chat-left-back.png');
+				background-size: 100% 100%;
+				background-repeat: no-repeat;
+				word-wrap: break-word;
+				color: #0085DD;
+			}
+			.chat-saint-name{
+				margin: 0px 0px 0px 10px;
+				font-size: 12px;
+			}
+			.col-sm-6 {
+				padding: 0;
+			}
+		}
+		.has-sub-card {
+			margin: 0;
+			margin-top: 16px;
+		}
+
+		.saind-card-img {
+			padding: 16px 0;
+		}
+
+		.saint-card-footer {
+			.quotes-red {
+				width: 90px;
+
+				font-family: Rubik;
+				font-size: 12px;
+				line-height: 18px;
+				text-align: center;
+
+				color: #FFFFFF;
+
+				background: #FFB5B5;
+				border-radius: 18px;
+			}
+		}
+	}
+}
+
+.postdetail {
+	.row{
+		margin: 0;
+	}
+	.col-md-3 {
+		margin-top: 8%;
+	}
+	.col-md-7 {
+		padding: 10px;
+		background: #FFFFFF;
+		box-shadow: 0px 4px 8px rgba(0, 66, 197, 0.15);
+	}
+	.top-area {
+		a {
+			font-family: Rubik;
+			font-weight: 500;
+			font-size: 14px;
+			line-height: 22px;
+
+			color: #1897EB;
+			text-decoration: none;
+			margin: 10px 20px;
+		}
+	}
+}
